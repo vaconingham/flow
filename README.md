@@ -19,7 +19,7 @@ Users will be able to use django-admin commands to process D0010 files, automati
 
 ### Getting started
 
-1. Create and activate a virtual environment.
+1. Clone the project and create/activate a virtual environment.
 2. Install project dependencies in requirements.txt
 3. Run makemigrations and migrate
 4. Run tests `python manage.py test`
@@ -27,6 +27,8 @@ Users will be able to use django-admin commands to process D0010 files, automati
 6. You may test the command by running `python manage.py flows/samples/d0010.txt`
 7. Run `python manage.py runserver` and visit the Django admin console 
 to verify the entries have been created.
+
+ATTENTION: You will need to create environment variables with a SECRET_KEY, or manually change the SECRET_KEY in the settings file to test the project.
 
 
 ### Outstading work
