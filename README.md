@@ -5,7 +5,7 @@
 ### Background
 
 #### Context
-D0010 flow files that are received via SFTP and store the revevant meter-point data in the database. A new service that can import these files and allows their information to be accessed via the web by support staff is required. Files will be imported via the command-line. 
+D0010 flow files that are received via SFTP and store the relevant meter-point data in the database. A new service that can import these files and allows their information to be accessed via the web by support staff is required. Files will be imported via the command-line. 
 
 #### Problem
 Currently we have to manually create the data for flow files in the database. This is slow, redundant, and prone to errors.
